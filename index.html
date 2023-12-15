@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <title>Jeux Pière-Papier-Ciseaux</title>
+</head>
+<body>
+    <div class="container">
+           <div class="d-flex justify-content-between pt-4 ">
+               <h3 class="score">Ordinateur: 0</h3>
+               <h3 class="score">Moi: 0</h3>
+            </div>
+            <div class="content ">
+                <h1 class="text-center mt-5 mb-5" >Piere-Papier-Ciseaux </h1>
+                <div class="justify-content-between">
+                    <button type="button" id="Piere"   onclick="buttonClick(this)" class="btn btn-outline-primary  game-choice">&#9994 </button>
+                    <button type="button" id="Papier"  onclick="buttonClick(this)" class="btn btn-outline-primary  game-choice">&#9995</button>
+                    <button type="button" id="Ciseaux" onclick="buttonClick(this)" class="btn btn-outline-primary  game-choice">&#9996</button>
+                    <div><img id="image" src="img.jpg" alt="">
+                    </div>
+                    </div>
+                </div>
+                <div id="gameChoice" >
+                </div>
+           
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
